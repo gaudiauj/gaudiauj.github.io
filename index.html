@@ -1,12 +1,215 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>hello</title>
+<html lang="fr">
+  <head>
+    <title>Profil de Jean Gaudiau - Développeur Web et Formateur React</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Jean Gaudiau, expert en développement front-end spécialisé en React, formateur et fondateur de React-Formation. Découvrez mon parcours et mes compétences.">
+    <meta name="keywords" content="Jean Gaudiau, React, Développeur Front-End, Formation React, JavaScript, Développement Web">
+    <meta name="author" content="Jean Gaudiau">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    welcome to my personal site !
-</head>
-<body>
+    <style>
 
-</body>
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #fff; /* Fond clair pour un aspect plus joyeux */
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête */
+.header {
+    background-color: #4a90e2; /* Bleu clair pour un look frais et moderne */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header p {
+    margin: 10px 0 0;
+}
+
+/* Liens */
+
+a {
+    color: #0077cc; /* Bleu vif pour un bon contraste sur fond clair */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #005fa3; /* Bleu légèrement plus foncé au survol */
+}
+
+/* Liens dans l'en-tête */
+.header a {
+    color: #fff; /* Blanc pour un bon contraste sur fond foncé */
+
+    text-decoration: underline;
+}
+
+.header a:hover {
+    text-decoration: underline;
+        font-weight: 600;
+}
+
+/* Styles pour les expériences professionnelles */
+.company {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #275e8e;
+}
+
+/* Contenu principal */
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fafafa; /* Fond légèrement gris pour réduire le contraste */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Sections */
+.about, .experience, .skills, .education {
+    margin-bottom: 40px;
+}
+
+/* Titres de section */
+h2 {
+    color: #333;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 10px;
+}
+
+/* Liste des compétences */
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background: #e0e0e0; /* Gris clair pour les tags */
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+.profile-photo {
+    width: 150px; /* Ajustez la taille selon vos besoins */
+    height: 150px;
+    border-radius: 50%; /* Pour rendre la photo circulaire */
+    margin: 0 auto; /* Centrer la photo */
+    display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-content {
+        width: 90%;
+        padding: 10px;
+    }
+}
+    </style>
+  </head>
+  <body>
+    <div class="header">
+        <img src="https://media.licdn.com/dms/image/C4D03AQFOmF3pgFBkKQ/profile-displayphoto-shrink_400_400/0/1530119054708?e=1710374400&v=beta&t=fXfnTTVREo8Yi2aQm3H-Xq0aMeXO_1nxqL60UsRnYEQ" alt="Jean Gaudiau" class="profile-photo">
+      <h1>Jean Gaudiau</h1>
+      <p>Expert React - Développeur Fullstack - Formateur</p>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/jean-gaudiau-50b10439/"
+          >LinkedIn</a
+        >
+        | <a href="https://www.malt.fr/profile/jeangaudiau">Malt</a> |
+        <a href="https://react-formation.fr">react-formation.fr</a>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <div class="about">
+        <h2>À propos</h2>
+        <p>
+          Je suis un expert React et Fullstack sur Node/NestJS. Passionné par la
+          qualité et la fiabilité des applications, j'ai une expérience
+          significative dans le développement et la formation, avec un accent
+          particulier sur la résolution de problèmes complexes comme le scaling,
+          la qualité de code, l'accessibilité, le SEO et les performances des
+          applications.
+          Je suis disponible pour des missions freelance ou formation, en remote ou sur Paris.
+        </p>
+      </div>
+
+      <div class="experience">
+        <h2>Expérience professionnelle</h2>
+        <p>
+          <span class="company">Freelance - react-formation</span> (Oct. 2021 -
+          Présent)
+        </p>
+        <p>
+          En tant que développeur web fullstack et expert React, je propose des
+          formations et du mentorat sur React et je suis aussi disponible pour des missions freelance.
+          j'ai pu travaillé avec différents clients comme : 
+            <ul>
+                <li>SNCF</li>
+                <li>DIOR</li>
+                <li>BAZARCHIC</li>
+                <li>SCALITY</li>
+                <li>KONECT</li>
+            </ul>
+        </p>
+
+        <p><span class="company">Swile</span> (Févr. 2021 - Oct. 2021)</p>
+        <p>
+          Développeur fullstack dans un environnement agile. Création d'un
+          espace dédié au CSE, mise en responsive de la partie e-commerce,
+          amélioration du site public. Stack incluant React, Docker, Next.js,
+          Nest.js.
+        </p>
+
+        <p><span class="company">Evaneos</span> (Janv. 2019 - Févr. 2021)</p>
+        <p>
+          Développeur front-end sur un outil pour agents de voyage. Travail sur
+          la performance et l'optimisation. Stack principale avec React, Redux,
+          API REST.
+        </p>
+
+        <p>
+          <span class="company">Sport Heroes Group</span> (Sept. 2016 - Déc.
+          2018)
+        </p>
+        <p>
+          Ingénieur développement Web dans un environnement agile. Création de
+          courses connectées pour des clients comme Lufthansa et Air France.
+          Stack incluant Angular, React, Node.js.
+        </p>
+
+        <p><span class="company">Santiane</span> (Mars 2015 - Sept. 2016)</p>
+        <p>
+          Développeur web full-stack, travaillant sur l'amélioration d'une
+          application pour courtiers en assurance et sur l'espace client. Stack
+          avec Angular, PHP, MySQL.
+        </p>
+      </div>
+
+      <div class="skills">
+        <h2>Compétences techniques</h2>
+        <ul>
+          <li>React (Hooks, Advanced Patterns, Concurrent Mode)</li>
+          <li>React-Router, React-Query</li>
+          <li>Redux, Jest</li>
+          <li>Next.js, Remix.js</li>
+          <li>Node.js (Express.js, Microservices)</li>
+          <li>RabbitMQ, MongoDB</li>
+          <li>API REST, Docker</li>
+        </ul>
+      </div>
+    </div>
+  </body>
 </html>
